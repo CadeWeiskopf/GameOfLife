@@ -74,7 +74,6 @@ def updateCells():
     #print('updateCells')
     global cells
     global liveCellsCoords
-    global updateCellsCounter
     for cell in cells:
         liveNeighborCount = 0
         for c in cell.neighbors:
